@@ -1,0 +1,199 @@
+body{
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.featured, h1{
+  color: white;
+}
+
+.App-header {
+  background: url('https://images.pexels.com/photos/163078/hiking-sunset-dessert-mountains-163078.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') no-repeat center center;
+  background-color: #222;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 180px;
+  margin-bottom: 2%;
+  padding-bottom: 50%;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.card-img-top{
+  width: 100%;
+  background-size: contain;
+}
+
+.sc{
+  background: url('http://www.scnhc.org/d/3100-2/Botany%20Bay-Edisto%20Scenic%20Byway.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index:-100;
+  padding:10%;
+  margin: 1%;
+}
+
+.nc{
+  background: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/asheville-north-carolina-blue-ridge-parkway-scenic-sunset-dave-allen.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index:-100;
+  padding:10%;
+  margin: 1%;
+  }
+
+.ca{
+    background: url('http://i.imgur.com/eW137EN.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index:-100;
+    padding:10%;
+    margin: 1%;
+    }
+
+.az{
+      background: url('http://blog.gograndgetaways.com/wp-content/uploads/2011/06/shutterstock_71026762-ARIZONA.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      z-index:-100;
+      padding:10%;
+      margin: 1%;
+      }
+
+  .ak{
+      background: url('http://cdn.onlyinyourstate.com/wp-content/uploads/2015/11/22291024623_b1b8bcfcc0_k-700x425.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      z-index:-100;
+      padding:10%;
+      margin: 1%;
+      }
+
+
+
+.container {
+   z-index:2;
+}
+
+.header {
+  margin-top:1%;
+  color:#fff;
+}
+
+.header h1 {
+   color:#fff;
+}
+
+.form-content{
+  margin: 0 auto;
+}
+
+.btn, .btn-primary{
+  margin-bottom: 3%;
+  }
+
+.form-group{
+  margin-bottom: 5rem;
+}
+
+.lead{
+  font-weight:400;
+}
+
+h2{
+  font-size: 5rem;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+}
+
+.App-text{
+  padding-top:2%;
+}
+
+.card-deck{
+  justify-content: center;
+}
+.card{
+  width: 90%;
+}
+
+.col-md-5{
+  padding: 1%;
+  background-color: white;
+  margin: 1%;
+}
+
+
+.logo {
+     background-color: white;
+     background-image: url('/styles/images/22-150.jpg');
+     background-size: cover;
+}
+.navbar-header {
+     list-style-type: none;
+     margin: 0 auto;
+     display: flex;
+}
+.nav-link {
+     color: white;
+}
+.form-control {
+     font-size: 1em;
+     color: #080808 ;
+}
+
+.section-content{
+     text-align: center;
+}
+
+#contact{
+     padding-top: 60px;
+     width: 90vw;
+     height: 550px;
+     background: -webkit-linear-gradient(to left, #3a6186 , #89253e );
+     background: linear-gradient(to left, #3a6186 , #89253e );
+     color : #fff;
+     margin: 0 auto;
+     padding: 20px;
+}
+.contact-section{
+     padding-top: 40px;
+}
+.contact-section .col-md-6{
+     width: 50%;
+}
+textarea.form-control {
+     height: 135px;
+     /* margin-top: px;*/
+}
+.form-submit {
+     margin: 0 auto;
+}
